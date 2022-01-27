@@ -1,26 +1,27 @@
-body {
-  margin:40px 40px;
-}
-
-ul {
-  padding: 15px;
-  height:30px;
-}
-
 .floatleft {
   float:left;
-  margin-left: 80px;
-}
-
-li.special_text {
-  font-size: 35px;
-  font-weight: 500;
+  margin-left: 60px;
 }
 
 .floatright {
   float:right;
-  font-size: 20px;
-  margin-right: 80px;
+  font-size: 14px;
+  margin-right: 60px;
+}
+
+li.special_text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+ul {
+  height:30px;
+  padding: 18px;
+}
+
+li {
+  display: inline;
+  padding: 18px;
 }
 
 .work:hover{
@@ -42,20 +43,14 @@ a {
   color: black;
 }
 
-li {
-  display: inline;
-  padding: 25px;
-  line-height: 30px;
-}
-
 p {
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
   border-bottom: 2px solid black;
   line-height: 10px;
   margin-top: 60px;
-  margin-left: 115px;
-  margin-right: 115px;
+  margin-left: 90px;
+  margin-right: 90px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   color: black;
@@ -68,12 +63,12 @@ p span {
 }
 
 h1 {
-  font-size: 115px;
-  line-height: 150px;
+  font-size: 75px;
+  line-height: 110px;
   text-align: left;
   margin-top: 60px;
-  margin-left: 115px;
-  margin-right: 115px;
+  margin-left: 94px;
+  margin-right: 94px;
   margin-bottom: 60px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -82,14 +77,14 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1000px 1000px;
-  grid-template-rows: 900px 900px;
+  grid-template-columns: 770px 770px;
+  grid-template-rows: 770px 770px;
   justify-content: center;
-  grid-gap: 40px;
+  grid-gap: 25px;
 }
 
 .grid-container > div {
-  padding-top: 40%;
+  padding-top: 42%;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 50px;
@@ -98,45 +93,27 @@ h1 {
   background-color: rgb(160, 160, 160);
 }
 
-
-.flex-container {
+.flex-icons {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: row;
   justify-content: center;
-  align-items: center;
   border-top: 2px solid black;
-  margin-top: 60px;
-  margin-left: 125px;
-  margin-right: 125px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   color: black;
-}
-
-.break {
-  flex-basis: 100%;
-  height: 0px;
-}
-
-.flex-container a {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px 40px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  text-decoration: none;
 }
 
 .fa {
-  padding: 20px 61.25px;
-  margin-bottom: -25px;
-  text-align: center;
-  text-decoration: none;
+  padding: 20px;
 }
 
 .copyright {
-  margin-top: 10px;
+  font-size: 14px;
   text-decoration: none;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: black;
+  margin-bottom: 25px;
 }
