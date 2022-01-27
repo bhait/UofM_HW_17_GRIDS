@@ -68,26 +68,24 @@ h1 {
   color: black;
 }
 
-#row {
-  display: flex;
-  flex-wrap: wrap;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1000px 1000px;
+  grid-template-rows: 900px 900px;
   justify-content: center;
+  grid-gap: 40px;
 }
 
-.flex_item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px;
-  margin: 20px;
+.grid-container > div {
+  padding-top: 40%;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-weight: 600;
   color: white;
-  height: 650px;
-  width: 800px;
   background-color: rgb(160, 160, 160);
 }
+
 
 .flex-container {
   display: flex;
