@@ -1,0 +1,132 @@
+body {
+  margin:40px 40px;
+}
+
+ul {
+  padding: 15px;
+  height:30px;
+}
+
+.floatleft {
+  float:left;
+  margin-left: 80px;
+}
+
+li.special_text {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.floatright {
+  float:right;
+  font-size: 20px;
+  margin-right: 80px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+li {
+  display: inline;
+  padding: 25px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 25px;
+  text-align: left;
+  border-bottom: 2px solid black;
+  line-height: 10px;
+  margin-top: 60px;
+  margin-left: 115px;
+  margin-right: 115px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+p span {
+  margin-left: -25px;
+  background: white;
+  padding: 3px 30px;
+}
+
+h1 {
+  font-size: 115px;
+  line-height: 150px;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-bottom: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+#row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  height: 650px;
+  width: 800px;
+  background-color: rgb(160, 160, 160);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+  margin-top: 60px;
+  margin-left: 125px;
+  margin-right: 125px;
+  color: black;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0px;
+}
+
+.flex-container a {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px 61.25px;
+  margin-bottom: -25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: black;
+}
