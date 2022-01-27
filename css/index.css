@@ -23,6 +23,18 @@ li.special_text {
   margin-right: 80px;
 }
 
+.work:hover{
+  color: red;
+}
+
+.about:hover{
+  color: red;
+}
+
+.archive:hover{
+  color: red;
+}
+
 a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
