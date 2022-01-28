@@ -69,6 +69,22 @@ h1 {
   grid-gap: 25px;
 }
 
+.grid-container .Project1:hover {
+  background: rgb(100, 100, 100) ;
+}
+
+.grid-container .Project2:hover {
+  background: rgb(100, 100, 100) ;
+}
+
+.grid-container .Project3:hover {
+  background: rgb(100, 100, 100) ;
+}
+
+.grid-container .Project4:hover {
+  background: rgb(100, 100, 100) ;
+}
+
 .grid-container > div {
   padding-top: 42%;
   text-align: center;
@@ -80,6 +96,10 @@ h1 {
 }
 
 /* Footer */
+.flex-icons a:hover {
+  opacity: 40%;
+}
+
 .flex-icons {
   display: flex;
   flex-wrap: row;
@@ -88,11 +108,18 @@ h1 {
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
+  text-decoration: none;
   color: black;
+}
+
+.flex-icons a{
+  color: black;
+
 }
 
 .fa {
   padding: 20px;
+  text-decoration: none;
 }
 
 .copyright {
