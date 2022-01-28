@@ -96,10 +96,6 @@ h1 {
 }
 
 /* Footer */
-.flex-icons a:hover {
-  opacity: 40%;
-}
-
 .flex-icons {
   display: flex;
   flex-wrap: row;
